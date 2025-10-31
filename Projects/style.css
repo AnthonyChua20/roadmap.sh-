@@ -1,0 +1,66 @@
+
+.container {
+  width: 60%; /* Adjust as needed, e.g., 900px */
+   /* Centers the container horizontally */
+    margin-top:4em;
+    margin-left: 3em;
+    
+}
+
+.bordered-element {
+  border-top: 3px solid black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+
+.myName {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-weight: 600;        /* makes letters closer together */
+  letter-spacing: normal;  /* ensures default spacing */
+  padding-left: 0;
+}
+
+.title{
+    font-family:'Montserrat', sans-serif;
+    color: #52ae63;
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+.email{
+    font-family:'Poppins', sans-serif;
+    color: black;   
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.text{
+    font-family:'Poppins', sans-serif;
+    color: black;   
+    margin-top: 0;
+    font-size: 16px;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  size: 10px;
+}
+.fa-github {
+    background:#1e3050;
+    color: white;
+    size: 10px;
+}
+.fa ,.fa-brands{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
